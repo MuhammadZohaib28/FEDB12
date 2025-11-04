@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* * - SELECT ALL */
+
+/* CLASS SELECTOR */
+
+
+
+.heading {
+    text-align: center;
+    background-color: seagreen;
+    color: aliceblue;
+
+    padding: 3rem 1rem 0 2rem;
+
+    border: 5px solid red
+};
+
+/* 1rem = 16px */
