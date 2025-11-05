@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgba(203, 38, 203, 0.553);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  padding: 1rem 3rem;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style: none;
+  gap: 1.5rem;
+}
+
+
+.logo-image{
+    width: 10rem;
+}
+
+
+
+.pink{
+    background-color: blue;
+}
+
+.heading{
+    background-color: blue;
+}
+
+
+
+
+.menu-items li {
+    color: rgb(47, 47, 47);
+}
+
+
+
+
+.menu-items li:hover{
+    color: aliceblue;
+
+    cursor: pointer;
+}
+
+
+
+
+.hero-section{
+      background-color: rgba(203, 38, 203, 0.25);
+
+      display: flex;
+
+}
