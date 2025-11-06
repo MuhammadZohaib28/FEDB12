@@ -11,7 +11,6 @@ header {
   justify-content: space-between;
   align-items: center;
 
-
   padding: 1rem 3rem;
 }
 
@@ -24,43 +23,116 @@ header {
   gap: 1.5rem;
 }
 
-
-.logo-image{
-    width: 10rem;
+.logo-image {
+  width: 10rem;
 }
 
-
-
-.pink{
-    background-color: blue;
+.pink {
+  background-color: blue;
 }
 
-.heading{
-    background-color: blue;
+.heading {
+  background-color: blue;
 }
-
-
-
 
 .menu-items li {
-    color: rgb(47, 47, 47);
+  color: rgb(47, 47, 47);
+}
+
+.menu-items li:hover {
+  color: aliceblue;
+
+  cursor: pointer;
+}
+
+.hero-section {
+  background-color: rgba(203, 38, 203, 0.25);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+
+  height: calc(100vh - 5rem);
+}
+
+.herosection-heading {
+  font-size: 4rem;
+  letter-spacing: -2px;
+}
+
+.herosection-p {
+  font-size: 1rem;
+}
+
+.left-section {
+  width: 70%;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 3rem;
+}
+
+.first-card img {
+  width: 2rem;
+}
+
+.cards-container {
+  width: 100%;
+  background-color: whitesmoke;
+  
+
+  display: flex;
+  gap: 1rem;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem 0.5rem;
+}
+
+.first-card {
+  /* border: 2px solid red; */
+  background-color: gainsboro;
+
+  width: 350px;
+  height: auto;
+
+  padding: 1rem;
+
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  border-radius: 1.5rem;
+}
+
+/* .cards-container {
+  background-color: whitesmoke;
+  padding: 2rem 0;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 
 
+.first-card {
+  background-color: rgb(197, 197, 197);
 
-.menu-items li:hover{
-    color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 2rem;
 
-    cursor: pointer;
-}
+  padding: 2rem;
 
-
-
-
-.hero-section{
-      background-color: rgba(203, 38, 203, 0.25);
-
-      display: flex;
-
-}
+  width: 40%;
+} */
